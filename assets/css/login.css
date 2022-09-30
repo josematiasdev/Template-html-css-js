@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("../images/tamas-pap-XLmhRnV8yuc-unsplash (2).jpg");
+}
+
+input{
+    padding: 15px;
+    outline: none;
+}
+
+a {
+    color: #ffffff;
+    font-size: 10px;
+    outline: none;
+    text-decoration: none;
+}
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.registre {
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: purple;
+}
+
+.registre:hover {
+    background-color: darkorchid;
+}
+.container {
+    background-color: #000000;
+    padding: 80px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.titulo {
+    color: white;
+    font-weidth: 900;
+    padding-bottom: 20px;
+}
